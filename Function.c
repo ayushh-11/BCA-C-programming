@@ -21,7 +21,6 @@ int isDivisible(int a[],int divisor,int len){
 			count++;
 		}
 	}
-	printf("%d",len);
 	if(count==len)
 		return 1;
 	else
